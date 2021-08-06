@@ -25,6 +25,7 @@ router.register(r'Customer',CustomerViewSet, basename="customer")
 router.register(r'Profession',ProfessionViewSet)
 router.register(r'DataSheet',DataSheetViewSet)
 router.register(r'Document',DocumentViewSet)
+
 urlpatterns = [
     path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
