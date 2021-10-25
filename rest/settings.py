@@ -11,7 +11,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['rest001.herokuapp.com',]
+ALLOWED_HOSTS = ['asvsclinica.herokuapp.com',]
 ALLOWED_ORIGINS = ['*']
 
 
